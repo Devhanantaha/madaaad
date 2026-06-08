@@ -1,0 +1,39 @@
+# Dependencies / builds
+/vendor/
+/node_modules/
+/public/node_modules/
+/public/hot
+/public/build
+/themes/fashion-theme/node_modules/
+/themes/fashion-theme/public/js/
+
+# Runtime / uploads
+/public/storage
+/public/uploaded/
+
+# Laravel storage — keep folders, ignore contents
+/storage/*
+!/storage/.gitignore
+!/storage/app/
+!/storage/framework/
+!/storage/logs/
+# Still ignore contents inside those, just keep the placeholder .gitignore files
+/storage/app/*
+!/storage/app/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Env & local tooling
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea/
+/.vscode/

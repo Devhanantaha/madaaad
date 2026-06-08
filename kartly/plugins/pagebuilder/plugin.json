@@ -1,0 +1,11 @@
+{
+    "name": "Page Builder",
+    "location": "pagebuilder",
+    "namespace": "Plugin\\PageBuilder\\",
+    "version": "1.0.o",
+    "author": "Themelooks",
+    "url": "http:\/\/www.themelooks.com\/",
+    "description": "Page Builder Plugin for E-commerce",
+    "license": false,
+    "is_verified": true
+}
