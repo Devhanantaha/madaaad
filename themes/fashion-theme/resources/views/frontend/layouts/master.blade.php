@@ -41,7 +41,7 @@
     @if (get_setting('favicon') != null)
         <link rel="shortcut icon" href="{{ asset(getFilePath(get_setting('favicon'))) }}">
     @else
-        <link rel="shortcut icon" href="{{ asset('/public/web-assets/backend/img/favicon.png') }}">
+        <link rel="shortcut icon" href="public/web-assets/backend/img/favicon.png">
     @endif
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @yield('seo')
@@ -61,17 +61,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/themes/fashion-theme/public/blog/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('/themes/fashion-theme/public/css/custom_app.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/back_to_top.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/header.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/header_logo.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/menu.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/blog.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/sidebar_options.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/page_404.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/subscribe.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/footer.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/social_icon.css') }}">
+    <link rel="stylesheet" href="themes/fashion-theme/public/css/custom_app.css') }}">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/back_to_top.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/header.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/header_logo.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/blog.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/sidebar_options.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/page_404.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/subscribe.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/social_icon.css">
     <!-- Including all google fonts link -->
     @includeIf('theme/fashion-theme::frontend.blog.includes.custom.google-font-link', [
         'body_typography' => $body_typography,
@@ -102,7 +102,7 @@
 <body class="antialiased">
     <div id="app">
     </div>
-    <link rel="stylesheet" type="text/css" href="{{ asset('/themes/fashion-theme/public/css/custom_css.css') }}">
+    <link rel="stylesheet" type="text/css" href="themes/fashion-theme/public/css/custom_css.css">
     <script>
         //set site title
         let site_title = localStorage.getItem('site_title');
@@ -141,7 +141,7 @@
     <!--End custom script-->
 
     @if (isActivePlugin('ecommerce'))
-        <script src="{{ asset('/themes/fashion-theme/public/js/main.js?v=120') }}"></script>
+        <script src="themes/fashion-theme/public/js/main.js?v=120"></script>
     @endif
 
 </body>
