@@ -215,12 +215,12 @@ class AdController extends Controller
 
     public function activeAds(Request $request)
     {
-        return response()->json([
-            'data' => 'HIT CONTROLLER'
-        ]);
+       
+       
+       
         try {
 
-            $ads = $this->ad_repository->getActiveAds($request->lang);
+            $ads = $this->ad_repository->getActiveAds();
 
             return response()->json([
                 'status' => true,
