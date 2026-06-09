@@ -15,6 +15,9 @@ use Plugin\Multivendor\Http\Controllers\Api\SellerAuthenticationController;
 |
 */
 
+Route::get('/test-route', function () {
+    return 'WORKING';
+});
 Route::group(['prefix' => 'v1/multivendor'], function () {
     //Seller auth
     Route::post('seller-registration', [SellerAuthenticationController::class, 'sellerRegistration']);
@@ -30,4 +33,10 @@ Route::group(['prefix' => 'v1/multivendor'], function () {
 
     //Followers
     Route::post('store-shop-follower', [ShopController::class, 'storeShopFollower'])->middleware('auth:jwt-customer');
-});
+    
+
+    // Ads 
+    Route::get('active-ads', [\Core\Http\Controllers\AdController::class, 'activeAds']);
+
+
+    });
