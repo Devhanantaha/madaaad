@@ -1,0 +1,39 @@
+{
+    "menuItems": [
+        {
+            "icon": "dashboard",
+            "name": "Dashboard",
+            "href": "/dashboard"
+        },
+        {
+            "icon": "receipt",
+            "name": "Orders",
+            "href": "/dashboard/orders"
+        },
+        {
+            "icon": "favorite_border",
+            "name": "Wishlist",
+            "href": "/dashboard/wishlist"
+        },
+        {
+            "icon": "local_post_office",
+            "name": "Address",
+            "href": "/dashboard/address"
+        },
+        {
+            "icon": "arrow_circle_left",
+            "name": "Refunds",
+            "href": "/dashboard/refund/requests"
+        },
+        {
+            "icon": "wallet",
+            "name": "My Wallet",
+            "href": "/dashboard/wallet"
+        },
+        {
+            "icon": "account_box",
+            "name": "Account",
+            "href": "/dashboard/manage-account"
+        }
+    ]
+}

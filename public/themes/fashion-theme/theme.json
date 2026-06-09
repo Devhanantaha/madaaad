@@ -1,0 +1,9 @@
+{
+    "name": "Fashion Theme",
+    "location": "fashion-theme",
+    "namespace": "Theme\\FashionTheme\\",
+    "version": "1.0.0",
+    "author": "Themelooks",
+    "url": "http://www.themelooks.com/",
+    "description": "Fashion Theme for E-commerce"
+}

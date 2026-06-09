@@ -1,0 +1,65 @@
+/*!
+  * devtools-if v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * message-compiler v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-i18n v9.2.2
+  * (c) 2022 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-router v4.0.0
+  * (c) 2020 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
+ * vuex v4.1.0
+ * (c) 2022 Evan You
+ * @license MIT
+ */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+* @vue/runtime-core v3.5.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/runtime-dom v3.5.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/shared v3.5.24
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/

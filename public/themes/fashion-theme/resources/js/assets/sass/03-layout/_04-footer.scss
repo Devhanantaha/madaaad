@@ -1,0 +1,82 @@
+/* ************************
+   03.4: Footer
+   ********************* */
+.footer {
+  border-top: none;
+
+  .widget {
+    margin-bottom: 30px;
+
+    .widget-title {
+      font-size: 24px;
+    }
+  }
+
+  .copyright {
+    color: var(--cui-footer-color);
+  }
+
+  .copyright a {
+    color: var(--mainC);
+  }
+
+  &__two {
+
+    .footer-top {
+      padding: 30px 0 30px;
+
+      @media (max-width: 420px) {
+        padding: 15px 0 15px;
+      }
+    }
+
+    .footer-middle {
+      background-color: #fff;
+      padding: 50px 0 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+      border-top: 1px solid rgba(0, 0, 0, 0.07);
+
+      @media (max-width: 420px) {
+        padding: 25px 0 15px;
+      }
+    }
+
+
+
+    .footer-top.widget-title,
+    .footer-top p {
+      color: $white;
+    }
+
+    .footer-middle .widget-title,
+    .footer-middle p,
+    .footer-middle a,
+    .footer-middle h2,
+    .footer-middle h3,
+    .footer-middle h5 {
+      color: var(--cui-footer-color);
+    }
+
+    .border-top {
+      border-color: rgba($color: $white, $alpha: 0.2) !important;
+    }
+
+    a:hover {
+      color: var(--mainC);
+    }
+
+    .social-icon {
+      border: 1px solid rgba(0, 0, 0, 0.07);
+      background-color: rgba(0, 0, 0, 0.07);
+    }
+
+    .social-icon:hover {
+      border-color: var(--mainC);
+      background-color: var(--mainC);
+    }
+
+    .social-icon:hover i {
+      color: $white;
+    }
+  }
+}
