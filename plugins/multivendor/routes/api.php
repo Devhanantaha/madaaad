@@ -36,7 +36,6 @@ Route::group(['prefix' => 'v1/multivendor'], function () {
     
 
     // Ads 
-    Route::get('active-ads', [\Core\Http\Controllers\AdController::class, 'activeAds']);
 
 
     });

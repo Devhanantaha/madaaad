@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::group(['prefix' => 'v1/multivendor'], function () {
+
+
+    Route::get('active-ads', [\Core\Http\Controllers\AdController::class, 'activeAds']);
+});

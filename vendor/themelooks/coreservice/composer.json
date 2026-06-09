@@ -1,0 +1,19 @@
+{
+    "name": "themelooks/coreservice",
+    "description": "Core service library for laravel project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kousar Rahman",
+            "email": "kousar.themelooks@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThemeLooks\\CoreService\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
